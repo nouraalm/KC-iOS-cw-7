@@ -12,13 +12,13 @@ struct StudentsDetailsModel:
     Identifiable{
     let id = UUID()
     var Fullname: String
-    var Year: Int
+    var Year: String
     var Age: Int
 }
-var Ahmed = StudentsDetailsModel(Fullname: "Ahmed", Year: 2006, Age: 16)
+var Ahmed = StudentsDetailsModel(Fullname: "Ahmed", Year: "2006", Age: 16)
 
-var Jamal = StudentsDetailsModel(Fullname: "Jamal", Year: 2004, Age: 17)
+var Jamal = StudentsDetailsModel(Fullname: "Jamal", Year: "2004", Age: 17)
 
-var Noura = StudentsDetailsModel(Fullname: "Noura", Year: 2004, Age: 18)
+var Noura = StudentsDetailsModel(Fullname: "Noura", Year: "2004", Age: 18)
 
 var Students = [Ahmed, Jamal, Noura]
