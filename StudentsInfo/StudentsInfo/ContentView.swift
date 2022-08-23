@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  StudentsInfo
 //
-//  Created by Nono. on 19/08/2022.
+//  Created by Noura. on 19/08/2022.
 //
 
 import SwiftUI
